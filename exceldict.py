@@ -3,7 +3,7 @@ import sys
 
 try:
     import openpyxl
-except ImportError as err:
+except ImportError:
     print 'Error: module openpyxl does not exist.'
     sys.exit(1)
 
